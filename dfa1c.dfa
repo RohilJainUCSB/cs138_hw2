@@ -1,0 +1,9 @@
+alphabet: {0, 1}
+start: q0q5
+accepting: {q0q5, q0q3q5}
+null (0 -> null) (1 -> null)
+q0q5 (0 -> q2q4) (1 -> null)
+q1q2 (0 -> q1q2) (1 -> q0q5)
+q2q4 (0 -> q1q2) (1 -> q3q4)
+q3q4 (0 -> null) (1 -> q0q3q5)
+q0q3q5 (0 -> q2q4) (1 -> q0q5)
